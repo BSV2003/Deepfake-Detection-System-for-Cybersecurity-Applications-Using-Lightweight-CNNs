@@ -1,0 +1,13 @@
+Model,Dataset,Mode,Accuracy,Precision,Recall,F1
+MobileNet+LSTM,Celeb-DF,Baseline,66.27,0.75,0.66,0.63
+MobileNet+LSTM,DFDC,Baseline,73.9,0.79,0.74,0.73
+MobileNet+LSTM,FF++,Baseline,72.05,0.8,0.72,0.7
+MesoNet+LSTM,Celeb-DF,Baseline,69.09,0.69,0.69,0.69
+MesoNet+LSTM,DFDC,Baseline,77.51,0.78,0.78,0.77
+MesoNet+LSTM,FF++,Baseline,68.68,0.69,0.69,0.68
+MobileNet+LSTM,Celeb-DF,Tuned,94.35,0.94,0.94,0.94
+MobileNet+LSTM,DFDC,Tuned,96.96,0.97,0.97,0.97
+MobileNet+LSTM,FF++,Tuned,95.48,0.96,0.95,0.95
+MesoNet+LSTM,Celeb-DF,Tuned,70.38,0.7,0.7,0.7
+MesoNet+LSTM,DFDC,Tuned,78.61,0.79,0.79,0.78
+MesoNet+LSTM,FF++,Tuned,68.93,0.7,0.69,0.69
